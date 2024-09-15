@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task List</title>
+  <link href="list.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <div id="title-input">
+      <h1><strong>To Do List</strong></h1>
+      <div>
+        <input type="text" id="task-input" placeholder="Enter a task">
+        <input type="datetime" id="due-date" placeholder="yyyy/mm/dd/time">
+        <select id="task-priority">
+          <optgroup label="Priority">
+            <option>Urgent</option>
+            <option>Moderate</option>
+            <option>Minor</option>
+          </optgroup>
+        </select>
+        <button id="add-task">Add Task</button>
+        <div>
+          <p>Priority colors</p>
+          <label>Urgent: </label><input type="color" id="urgent" value="#f08080" /><label> Moderate: </label><input type="color" id="Moderate" value="#FFA500" /><label> Minor: </label><input type="color" id="Minor" value="#FFFF00" /><label> Completed: </label><input type="color" id="Completed" value="#90EE90" />
+        </div>
+      </div>
+    </div>
+    <div id="task-list">
+     
+    </div>
+  </div>
+
+  <script src="List.js"></script>
+</body>
+</html>

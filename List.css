@@ -1,0 +1,59 @@
+#task-list{
+    padding: 30px;
+    padding-right:150px ; 
+    padding-left:150px ;
+    border-style:solid;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-collapse: top;
+    }
+    #task-list ul{
+        margin: 20px 0;
+        padding: 20px;  
+    }
+    #add-task{
+        background-color: lightblue;
+    }
+    .div{
+        padding :30px;
+    }
+    
+    body{
+        background-image: url(walls.jpg);
+        background-repeat: repeat;
+    }
+    
+    #title-input{
+        border-style:solid;
+        padding-bottom: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+        text-align: center;
+        text-shadow: 50px;
+    }
+    .task-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+      .task-item .complete-button {
+        order: -1; 
+        background-color: lightgreen;
+      }
+    
+      .task-item .delete-button {
+        order: 1; 
+        background-color: red;
+      }
+    #urgent{
+        background-color: lightcoral;
+    }
+    #Moderate{
+        background-color: orange;
+    }
+    #Minor{
+        background-color: yellow;
+    }
+    #Completed{
+        background-color: lightgreen;
+    }
